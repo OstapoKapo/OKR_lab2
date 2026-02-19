@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Твоє Прізвище">
+    <title>Характеристики - Складна таблиця</title>
+</head>
+<body bgcolor="#e6e6fa">
+
+    <h1>Складна таблиця з об'єднанням</h1>
+    
+    <table border="2" cellspacing="5" cellpadding="15" width="90%">
+        <caption><b>Космічні місії</b></caption>
+        
+        <colgroup>
+            <col style="background-color: #ffcccb" width="20%">
+            <col span="2" style="background-color: lightyellow" width="40%">
+        </colgroup>
+
+        <tr align="center" bgcolor="#d3d3d3">
+            <th>Рік</th>
+            <th>Назва місії</th>
+            <th>Результат</th>
+        </tr>
+        
+        <tr align="center" valign="middle">
+            <td rowspan="2"><b>1969</b></td>
+            <td align="left">Аполлон-11</td>
+            <td>Успіх (Місяць)</td>
+        </tr>
+        <tr align="right" valign="bottom">
+            <td>Аполлон-12</td>
+            <td>Успіх (Місяць)</td>
+        </tr>
+        
+        <tr align="center">
+            <td><b>2020</b></td>
+            <td colspan="2" bgcolor="#90ee90">Запуск марсохода Perseverance (Успішна спільна місія)</td>
+        </tr>
+    </table>
+
+    <br>
+    <p>Перейти до: <a href="contacts.html">Сторінка 3 (Iframe)</a></p>
+    <p>Перейти до: <a href="gallery.html">Сторінка 4 (Галерея)</a></p>
+    <p>Перейти до: <a href="index.html">Головна сторінка</a></p>
+
+</body>
+</html>
